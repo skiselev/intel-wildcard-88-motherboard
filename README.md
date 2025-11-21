@@ -1,5 +1,5 @@
 # Intel Wildcard 88 Motherboard
-An IBM PC/XT compatible motherboard utilizing the [Intel Wildcard 88](https://theretroweb.com/motherboards/s/intel-wildcard-88) module
+An IBM PC/XT compatible motherboard utilizing the [Intel Wildcard 88](documentation/Wildcard%2088%20Datasheet.pdf) module
 
 ## Intel Wildcard 88
 The Intel Wildcard 88 module was announced by Intel in August 1988. In early 1990's Intel sold Wildcard 88 line to the Canadian [Megatel Computer Corporation](https://web.archive.org/web/20060613014211/http://www.megatel.com/). Here is their [Wildcard 88 page](https://web.archive.org/web/20060615183926/http://megatel.com/html/embedded/control/ov_cwm.htm).
@@ -41,7 +41,13 @@ Here are motherboard specifications and ideas behind them:
   * P6 - Power LED
   * JP1 - VID0 - Video configuration jumper (mono / color)
   * JP2 - AT2XT keyboard converter configuration. Currently, if installed, the jumper configures firmware to pass 0xE0 scan code to the system. This is useful for international keyboards.
- 
+
+### Schematic and PCB Layout
+
+* [Schematic - Version 1.0](KiCad/Wildcard%2088%20Motherboard%20-%20Schematic%20-%201.0.pdf)
+* [PCB Layout - Version 1.0](KiCad/Wildcard%2088%20Motherboard%20-%20Board%20-%201.0.pdf)
+* [KiCad design files](KiCad/)
+
 ### Bill of Materials
 
 Component type     | Reference | Description                                   | Quantity | Possible sources and notes 
@@ -82,7 +88,7 @@ Socket             | U8        | 14 pin DIP socket                             |
 
 ### Firmware
 
-The BIOS binary files from The Leading Edge - Model D are provided in the software directory of this repository.
+The BIOS binary files from The Leading Edge - Model D are provided in the [software](software/) directory of this repository.
 
 In addition, since the Wildcard 88 module uses [Faraday FE2010 or FE1020A chipsets](https://github.com/skiselev/micro_8088/blob/master/Documentation/Faraday-XT_Controller-FE2010A.md), the [8088 BIOS](https://github.com/skiselev/8088_bios) configured for these chipsets (e.g., Micro 8088 configuration) can be used instead. Note that since the Wildcard 88 module uses EPROM memory, the BIOS configuration utility will not work, so the BIOS configuration needs to be edited prior to programming the EPROM.
 
@@ -91,3 +97,5 @@ In addition, since the Wildcard 88 module uses [Faraday FE2010 or FE1020A chipse
 ### Licensing
 
 Intel Wildcard 88 Motherboard is an open source hardware project. The hardware design itself, including schematic and PCB layout design files are licensed under the strongly-reciprocal variant of [CERN Open Hardware Licence version 2](license-cern_ohl_s_v2.txt). Documentation, including this file, is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](license-cc-by-sa-4.0.txt).
+
+![CERN-OHL-2.0-S, GPL-3.0, CC-BY-SA-4.0](images/CERN-OHL-2.0-S_GPL-3.0-only_CC-BY-SA-4.0.svg)
