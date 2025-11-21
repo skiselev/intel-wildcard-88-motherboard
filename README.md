@@ -4,6 +4,8 @@ An IBM PC/XT compatible motherboard utilizing the [Intel Wildcard 88](documentat
 ## Intel Wildcard 88
 The Intel Wildcard 88 module was announced by Intel in August 1988. In early 1990's Intel sold Wildcard 88 line to the Canadian [Megatel Computer Corporation](https://web.archive.org/web/20060613014211/http://www.megatel.com/). Here is their [Wildcard 88 page](https://web.archive.org/web/20060615183926/http://megatel.com/html/embedded/control/ov_cwm.htm).
 
+<img src="images/Wildcard%2088%20-%20Front.jpg" alt="Wildcard 88 - Front Side" width="482" height="260">
+
 ### Specifications of Wildcard 88 module
 * The size is about 2" x 4" (50.8mm x 101.6mm)
 * Intel 80C88A CPU - 4.77 MHz, 7.15 MHz turbo mode, and 9.54 MHz (Wildcard-88-10N only)
@@ -19,6 +21,8 @@ The Intel Wildcard 88 module was used in several XT compatible computers, for ex
 
 ### Overview
 Most of the XT computer functionality is implemented on the Wildcard 88 module. The motherboard adds memory, ISA slots, and AT2XT keyboard converter, so that the motherboard can be used with a more modern PS/2 keyboard. It is designed to be as small as possible - the board size is 4.6" x 6.5", but yet functional enough to be used as a generic XT motherboard.
+
+<img src="images/Motherboard%20-%20Back.jpg" alt="Wildcard 88 Motherboard - Back Side" width="450" height="300">
 
 ### Specifications
 Here are motherboard specifications and ideas behind them:
