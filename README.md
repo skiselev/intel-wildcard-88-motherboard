@@ -72,19 +72,19 @@ Connector          | P2        | 6 pin Mini DIN connector                      |
 Pin Header         | P3        | 1x4 pin header                                | 1        | Mouser [649-68002-204HLF](https://www.mouser.com/ProductDetail/649-68002-204HLF)
 Connector          | P4        | 2 pin connector with friction lock            | 1        | Mouser [571-6404562](https://www.mouser.com/ProductDetail/571-6404562)
 Transistor         | Q1        | PN2222A                                       | 1        | Mouser [512-PN2222ATA](https://www.mouser.com/ProductDetail/512-PN2222ATA)
-Resistor           | R1        | 1k resistor                                   | 1        | Mouser 291-1K-RC
-Resistor           | R2 - R4   | 470 ohm resistor                              | 3        | Mouser 291-470-RC
-Resistor           | R4, R5    | 1.5k resistor                                 | 2        | Mouser 291-1.5K-RC
-Resistor Array     | RR1, RR2  | 33 ohm resistor array, DIP-14                 | 2        | Mouser 652-4114R-1LF-33
-Resistor Array     | RR3, RR4  | 4.7k resistor array, SIP-9                    | 2        | Mouser 858-L091S472LF, 652-4609X-1LF-4.7K, 652-4309R-1LF-4.7K
-Speaker            | SP1       | 12 mm speaker                                 | 1        | Mouser 665-AT-1224TWTR
-Button             | SW1       | 6 mm tactile button                           | 1        | Mouser 653-B3F-1000
+Resistor           | R1        | 1k resistor                                   | 1        | Mouser [603-MFR-25FRF521K](https://www.mouser.com/ProductDetail/603-MFR-25FRF521K)
+Resistor           | R2 - R4   | 470 ohm resistor                              | 3        | Mouser [603-MFR-25FRF52-470R](https://www.mouser.com/ProductDetail/603-MFR-25FRF52-470R)
+Resistor           | R4, R5    | 1.5k resistor                                 | 2        | Mouser [603-MFR-25FRF521K5](https://www.mouser.com/ProductDetail/603-MFR-25FRF521K5)
+Resistor Array     | RR1, RR2  | 33 ohm resistor array, DIP-14                 | 2        | Mouser [652-4114R-1LF-33](https://www.mouser.com/ProductDetail/652-4114R-1LF-33), or use 14 discrete resistors [603-MFR-25FRF52-33R](https://www.mouser.com/ProductDetail/603-MFR-25FRF52-33R)
+Resistor Array     | RR3, RR4  | 4.7k resistor array, SIP-9                    | 2        | Mouser [652-4609X-1LF-4.7K](https://www.mouser.com/ProductDetail/652-4609X-1LF-4.7K), [858-L091S472LF](https://www.mouser.com/ProductDetail/858-L091S472LF), [652-4309R-1LF-4.7K](https://www.mouser.com/ProductDetail/652-4309R-1LF-4.7K)
+Speaker            | SP1       | 12 mm speaker                                 | 1        | Mouser [665-AT-1224TWTR](https://www.mouser.com/ProductDetail/665-AT-1224TWTR)
+Button             | SW1       | 6 mm tactile button                           | 1        | Mouser [653-B3F-1000](https://www.mouser.com/ProductDetail/653-B3F-1000)
 Module             | U1        | Intel Wildcard 88 Module                      | 1        | eBay
 Module             | U2        | SIMM-30 RAM, 1 Mbit x 8                       | 1        | eBay
-Integrated Circuit | U3        | PIC12C629                                     | 1        | Mouser 579-PIC12F629IP
-Integrated Circuit | U4        | 74ALS245                                      | 1        | Mouser 595-SN74F245N, 771-NF245N602, 595-SN74ACT245N, 595-CD74ACT245E
-Integrated Circuit | U5 - U7   | 74ALS158                                      | 3        | Mouser 595-SN74F157AN, 595-SN74F157ANE4, 595-CD74ACT157E
-Integrated Circuit | U8        | 74ALS27                                       | 1        | Mouser 595-SN74F27N, 595-SN74F27NE4, 595-SN74ALS27AN, 595-SN74ALS27ANE4
+Integrated Circuit | U3        | PIC12C629                                     | 1        | Mouser [579-PIC12F629IP](https://www.mouser.com/ProductDetail/579-PIC12F629IP), [579-PIC12F629-E/P](https://www.mouser.com/ProductDetail/579-PIC12F629-E-P)
+Integrated Circuit | U4        | 74ALS245                                      | 1        | Mouser [595-SN74F245N](https://www.mouser.com/ProductDetail/595-SN74F245N), [595-SN74F245NE4](https://www.mouser.com/ProductDetail/595-SN74F245NE4) [595-SN74ALS245AN](https://www.mouser.com/ProductDetail/595-SN74ALS245AN), [595-SN74ACT245N](https://www.mouser.com/ProductDetail/595-SN74ACT245N), [595-CD74ACT245E](https://www.mouser.com/ProductDetail/595-CD74ACT245E)
+Integrated Circuit | U5 - U7   | 74ALS158                                      | 3        | Mouser [595-SN74F157AN](https://www.mouser.com/ProductDetail/595-SN74F157AN), [595-SN74ALS157AN](https://www.mouser.com/ProductDetail/595-SN74ALS157AN), [595-CD74ACT157E](https://www.mouser.com/ProductDetail/595-CD74ACT157E)
+Integrated Circuit | U8        | 74ALS27                                       | 1        | Mouser [595-SN74F27N](https://www.mouser.com/ProductDetail/595-SN74F27N), [595-SN74ALS27AN](https://www.mouser.com/ProductDetail/595-SN74ALS27AN)
 Integrated Circuit | U9        | LM7905                                        | 1        | Mouser [863-MC7905CTG](https://www.mouser.com/ProductDetail/863-MC7905CTG)
 Socket             | U1        | 68 pin SIMM socket, vertical                  | 1        | Make from a 72 pin socket Mouser [571-5822021-4](https://www.mouser.com/ProductDetail/571-5822021-4)
 Socket             | U2        | 30 pin SIMM socket, vertical                  | 1        | eBay
@@ -93,11 +93,17 @@ Socket             | U4        | 20 pin DIP socket                             |
 Socket             | U5 - U7   | 16 pin DIP socket                             | 3        | Mouser [517-4816-3000-CP](https://www.mouser.com/ProductDetail/517-4816-3000-CP)
 Socket             | U8        | 14 pin DIP socket                             | 1        | Mouser [517-4814-3000-CP](https://www.mouser.com/ProductDetail/517-4814-3000-CP)
 
-### Firmware
+## Software
+
+### BIOS
 
 The BIOS binary files from The Leading Edge - Model D are provided in the [software](software/) directory of this repository.
 
-In addition, since the Wildcard 88 module uses [Faraday FE2010 or FE1020A chipsets](https://github.com/skiselev/micro_8088/blob/master/Documentation/Faraday-XT_Controller-FE2010A.md), the [8088 BIOS](https://github.com/skiselev/8088_bios) configured for these chipsets (e.g., Micro 8088 configuration) can be used instead. Note that since the Wildcard 88 module uses EPROM memory, the BIOS configuration utility will not work, so the BIOS configuration needs to be edited prior to programming the EPROM.
+Since the Wildcard 88 module uses [Faraday FE2010 or FE1020A chipsets](https://github.com/skiselev/micro_8088/blob/master/Documentation/Faraday-XT_Controller-FE2010A.md), the [8088 BIOS](https://github.com/skiselev/8088_bios) configured for these chipsets (e.g., Micro 8088 configuration) can be used instead. Note that the Wildcard 88 module uses an EPROM instead of a Flash ROM, therefore the BIOS configuration utility will not work. The BIOS configuration needs to be edited prior to programming the EPROM.
+
+### AT2XT Firmware
+
+The Wildcard 88 Motherboard integrates an AT2XT keyboard converter, implemented using PIC12F629 (U3). The firmware for this microcontroller is availabe from the [minuszerodegrees.net](http://minuszerodegrees.net/at2xtkb/XTATKEY_094.zip) and the [Vintage Computer Federation AT2XT page](https://forum.vcfed.org/index.php?threads/at2xt-keyboard-converter.26861/page-4#post-1242916). The HEX file with the firmware can be extracted from XTATKEY_094.zip.
 
 ## Red Tape
 
