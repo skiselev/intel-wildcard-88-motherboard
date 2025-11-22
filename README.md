@@ -54,21 +54,24 @@ Here are motherboard specifications and ideas behind them:
 
 ### Bill of Materials
 
+* Wildcard 88 Motherboard project on Mouser: Order most of the components
+* Wildcard 88 Motherboard project on OSHPark: Order the [Wildcard 88 Motherboard](https://oshpark.com/shared_projects/J2usAv54) PCB
+
 Component type     | Reference | Description                                   | Quantity | Possible sources and notes 
 ------------------ | --------- | --------------------------------------------- | -------- | --------------------------
-PCB                |           | Wildcard 88 Motherboard PCB                   | 1        | Order from a PCB manufacturer of your choice using provided Gerber or KiCad files
-Connector          | BUS1 - BUS5 | 62 pin card edge connector, ISA             | 5        | Mouser 571-5645235-1, 571-7-5530843-0
-Capacitor          | C1 - C9   | 0.1uF ceramic capacitor, 5.08 mm lead spacing | 9        | Mouser 810-FK28X7R1H104K
-Capacitor          | C10       | 0.01uF ceramic capacitor, 5.08 mm lead spacing | 1       | Mouser 810-FK28X7R1H103K, 80-C322C103K1R5CA
-Capacitor          | C11 - C27 | 10uF ceramic or tantalum capacitor, 5.08 mm lead spacing | 17| Mouser 810-FK24X5R1C106K
-Diode              | D1        | 1N4148                                        | 1        | Mouser 512-1N4148, 771-1N4148-T/R
-LED                | D2-D5     | 3 mm LED, various colors                      | 4        | Mouser 78-TLHG4400 (Red), 78-TLHY4400 (Yellow), 78-TLHG4600 (Green), 78-TLHB4400 (Blue)
-Pin Header         | JP1, JP2, P5, P6 | 1x2 pin header                         | 4        | Mouser 649-68002-102HLF
-Connector          | P1        | 8 pin connector with friction lock            | 1        | Mouser 571-6404568
-Connector          | P2        | 6 pin Mini DIN connector                      | 1        | Mouser 806-KMDGX-6S-BS2715C (Purple)
-Pin Header         | P3        | 1x4 pin header                                | 1        | Mouser 649-68002-104HLF
-Connector          | P4        | 2 pin connector with friction lock            | 1        | Mouser 571-6404562
-Transistor         | Q1        | PN2222A                                       | 1        | Mouser 512-PN2222ATA
+PCB                |           | Wildcard 88 Motherboard PCB                   | 1        | Order from a PCB manufacturer of your choice using provided [Gerber](gerber/) or [KiCad](KiCad/WildcardXT.kicad_pcb) files.
+Connector          | BUS1 - BUS5 | 62 pin card edge connector, ISA             | 5        | Mouser [571-6-5530843-5](https://www.mouser.com/ProductDetail/571-6-5530843-5), [571-7-5530843-0](https://www.mouser.com/ProductDetail/571-7-5530843-0), [571-5645235-1](https://www.mouser.com/ProductDetail/571-5645235-1)
+Capacitor          | C1 - C9   | 0.1uF ceramic capacitor, 5.08 mm lead spacing | 9        | Mouser [810-FG28X7R1H104KNT6](https://www.mouser.com/ProductDetail/810-FG28X7R1H104KNT6)
+Capacitor          | C10       | 0.01uF ceramic capacitor, 5.08 mm lead spacing | 1       | Mouser [810-FG28X7R1H103KNT6](https://www.mouser.com/ProductDetail/810-FG28X7R1H103KNT6)
+Capacitor          | C11 - C27 | 10uF ceramic or tantalum capacitor, 5.08 mm lead spacing | 17| Mouser [810-FG28X5R1E106MR06](https://www.mouser.com/ProductDetail/810-FG28X5R1E106MR06)
+Diode              | D1        | 1N4148                                        | 1        | Mouser [512-1N4148TA](https://www.mouser.com/ProductDetail/512-1N4148TA), [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148)
+LED                | D2-D5     | 3 mm LED, various colors                      | 4        | Mouser [593-VAOL-3LAE2](https://www.mouser.com/ProductDetail/593-VAOL-3LAE2) (Red), [593-VAOL-3GCE4](https://www.mouser.com/ProductDetail/593-VAOL-3GCE4) (Yellow), [593-VAOL-3MDE2](https://www.mouser.com/ProductDetail/593-VAOL-3MDE2) (Green), [593-VAOL-3LSBY2](https://www.mouser.com/ProductDetail/593-VAOL-3LSBY2) (Blue)
+Pin Header         | JP1, JP2, P5, P6 | 1x2 pin header                         | 4        | Mouser [649-68002-102HLF](https://www.mouser.com/ProductDetail/649-68002-102HLF)
+Connector          | P1        | 8 pin connector with friction lock            | 1        | Mouser [571-6404568](https://www.mouser.com/ProductDetail/571-6404568)
+Connector          | P2        | 6 pin Mini DIN connector                      | 1        | Mouser [806-KMDGX-6S-BS](https://www.mouser.com/ProductDetail/806-KMDGX-6S-BS)
+Pin Header         | P3        | 1x4 pin header                                | 1        | Mouser [649-68002-204HLF](https://www.mouser.com/ProductDetail/649-68002-204HLF)
+Connector          | P4        | 2 pin connector with friction lock            | 1        | Mouser [571-6404562](https://www.mouser.com/ProductDetail/571-6404562)
+Transistor         | Q1        | PN2222A                                       | 1        | Mouser [512-PN2222ATA](https://www.mouser.com/ProductDetail/512-PN2222ATA)
 Resistor           | R1        | 1k resistor                                   | 1        | Mouser 291-1K-RC
 Resistor           | R2 - R4   | 470 ohm resistor                              | 3        | Mouser 291-470-RC
 Resistor           | R4, R5    | 1.5k resistor                                 | 2        | Mouser 291-1.5K-RC
@@ -82,13 +85,13 @@ Integrated Circuit | U3        | PIC12C629                                     |
 Integrated Circuit | U4        | 74ALS245                                      | 1        | Mouser 595-SN74F245N, 771-NF245N602, 595-SN74ACT245N, 595-CD74ACT245E
 Integrated Circuit | U5 - U7   | 74ALS158                                      | 3        | Mouser 595-SN74F157AN, 595-SN74F157ANE4, 595-CD74ACT157E
 Integrated Circuit | U8        | 74ALS27                                       | 1        | Mouser 595-SN74F27N, 595-SN74F27NE4, 595-SN74ALS27AN, 595-SN74ALS27ANE4
-Integrated Circuit | U9        | LM7905                                        | 1        | Mouser 512-LM7905CT
-Socket             | U1        | 68 pin SIMM socket, vertical                  | 1        | Make from a 72 pin socket Mouser 571-5822021-4, Jameco #962074 5822021-4
-Socket             | U2        | 30 pin SIMM socket, vertical                  | 1        | Jameco #100302 2000-1X30S-R
-Socket             | U3        | 8 pin DIP socket                              | 1        | Mouser 517-4808-3000-CP
-Socket             | U4        | 20 pin DIP socket                             | 1        | Mouser 517-4820-3000-CP
-Socket             | U5 - U7   | 16 pin DIP socket                             | 3        | Mouser 517-4816-3000-CP
-Socket             | U8        | 14 pin DIP socket                             | 1        | Mouser 517-4814-3000-CP
+Integrated Circuit | U9        | LM7905                                        | 1        | Mouser [863-MC7905CTG](https://www.mouser.com/ProductDetail/863-MC7905CTG)
+Socket             | U1        | 68 pin SIMM socket, vertical                  | 1        | Make from a 72 pin socket Mouser [571-5822021-4](https://www.mouser.com/ProductDetail/571-5822021-4)
+Socket             | U2        | 30 pin SIMM socket, vertical                  | 1        | eBay
+Socket             | U3        | 8 pin DIP socket                              | 1        | Mouser [517-4808-3000-CP](https://www.mouser.com/ProductDetail/517-4808-3000-CP)
+Socket             | U4        | 20 pin DIP socket                             | 1        | Mouser [517-4820-3000-CP](https://www.mouser.com/ProductDetail/517-4820-3000-CP)
+Socket             | U5 - U7   | 16 pin DIP socket                             | 3        | Mouser [517-4816-3000-CP](https://www.mouser.com/ProductDetail/517-4816-3000-CP)
+Socket             | U8        | 14 pin DIP socket                             | 1        | Mouser [517-4814-3000-CP](https://www.mouser.com/ProductDetail/517-4814-3000-CP)
 
 ### Firmware
 
