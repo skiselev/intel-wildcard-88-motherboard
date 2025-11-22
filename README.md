@@ -54,8 +54,8 @@ Here are motherboard specifications and ideas behind them:
 
 ### Bill of Materials
 
-* Wildcard 88 Motherboard project on Mouser: Order most of the components
-* Wildcard 88 Motherboard project on OSHPark: Order the [Wildcard 88 Motherboard](https://oshpark.com/shared_projects/J2usAv54) PCB
+* [Wildcard 88 Motherboard project on Mouser](https://www.mouser.com/Tools/Project/Share?AccessID=80f9c13de3): Order most of the components
+* [Wildcard 88 Motherboard project on OSHPark](https://oshpark.com/shared_projects/J2usAv54): Order the Wildcard 88 Motherboard PCB
 
 Component type     | Reference | Description                                   | Quantity | Possible sources and notes 
 ------------------ | --------- | --------------------------------------------- | -------- | --------------------------
